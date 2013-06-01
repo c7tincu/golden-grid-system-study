@@ -1,9 +1,7 @@
 golden-grid-system-study
 ===============================================================================
 
-golden-grid-system-study is an interpretation of [Joni Korpi](http://www.jonikorpi.com/)’s
-[Golden Grid System](http://goldengridsystem.com/).
-
+http://cristiantincu.github.io/golden-grid-system-study/
 
 
 License
