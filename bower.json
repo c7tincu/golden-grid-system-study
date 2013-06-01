@@ -1,0 +1,9 @@
+{
+  "name" : "golden-grid-system-study",
+  "version" : "0.0.1",
+  "dependencies" :
+    {
+      "normalize-css" : "1.x",
+      "html5shiv" : "3.x"
+    }
+}
