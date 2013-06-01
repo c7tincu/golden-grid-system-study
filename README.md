@@ -9,4 +9,4 @@ golden-grid-system-study is an interpretation of [Joni Korpi](http://www.jonikor
 License
 -------------------------------------------------------------------------------
 
-[MIT](https://github.com/CristianTincu/golden-grid-system-study/blob/master/LICENSE.md).
+[MIT](https://github.com/CristianTincu/golden-grid-system-study/blob/gh-pages/LICENSE.md).
