@@ -17,6 +17,9 @@
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
+  // Only for this study:
+  border-bottom: 1px dotted #FFFFFF;
+  border-bottom-color: rgba(255, 255, 255, 0.5);
 }
 
 
@@ -31,13 +34,13 @@ body {
 }
 
 // 13px / 18px, for `@f-s`: 16 and `@l-h`: 24.
-.ly-small {
+.gg-small {
   font-size: (@f-s * 0.8125) / @ru;
   line-height: (@l-h * 0.75) / (@ru * 0.8125);
 }
 
 // 16px / 24px, for `@f-s`: 16 and `@l-h`: 24.
-.ly-medium,
+.gg-medium,
 h3,
 h2 {
   font-size: @f-s / @ru;
@@ -45,7 +48,7 @@ h2 {
 }
 
 // 20px / 36px, for `@f-s`: 16 and `@l-h`: 24.
-.ly-large,
+.gg-large,
 h1 {
   font-size: (@f-s * 1.25) / @ru;
   line-height: (@l-h * 1.5) / (@ru * 1.25);
@@ -74,6 +77,12 @@ h1 {
 // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 @media only screen and (min-width: 720px) {
+
+  // 18px / 27px, for `@f-s`: 16 and `@l-h`: 24.
+  body {
+    font-size: (@f-s * 1.125) / @ru;
+    line-height: (@l-h * 1.25) / (@ru * 1.25);
+  }
 
   .gg-02, .gg-⊕.gg-02, .gg-⊖.gg-02 { width: @col * 2 * 1; display: block; }
   .gg-04, .gg-⊕.gg-04, .gg-⊖.gg-04 { width: @col * 2 * 2; }
@@ -112,6 +121,12 @@ h1 {
 // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 @media only screen and (min-width: 1200px) {
+
+  // 20px / 30px, for `@f-s`: 16 and `@l-h`: 24.
+  body {
+    font-size: (@f-s * 1.25) / @ru;
+    line-height: (@l-h * 1.25) / (@ru * 1.25);
+  }
 
   .gg-01, .gg-⊕.gg-01, .gg-⊖.gg-01 { width: @col *  1; display: block; }
   .gg-02, .gg-⊕.gg-02, .gg-⊖.gg-02 { width: @col *  2; }
