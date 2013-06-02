@@ -54,5 +54,7 @@ html{height:100%;}
 body{min-height:100%;background-color:#FFFFFF;color:#333333;font-family:"eb-garamond";}
 header{visibility:hidden;}
 noscript{display:block;margin:1em 40px;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;}
-h1,h2,h3{margin:0;font-family:"unifrakturcook";text-align:center;}
+h1,h2,h3{margin:0;font-family:"josefin-slab";text-align:center;}
+*::-moz-selection{background-color:#CC0044;color:#FFFFFF;}
+*::selection{background-color:#CC0044;color:#FFFFFF;}
 .wf-active header{visibility:visible;}
