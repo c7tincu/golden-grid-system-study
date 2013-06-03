@@ -6,13 +6,17 @@ html {
 }
 
 body {
-  min-height: 100%;
   min-width: 320px;
-  background-color: #FFFFFF;
+  min-height: 100%;
+  background-color: #EEEEEE;
   color: #333333;
   font-family: "eb-garamond";
+  text-rendering: optimizeLegibility;
 }
 
+// These rules will be overriden by
+// `.wf-active header`, `.wf-active section`, `.wf-active footer`,
+// once webfonts are loaded.
 header,
 section,
 footer {
@@ -21,7 +25,7 @@ footer {
 
 noscript {
   display: block;
-  margin: 1em 40px;
+  margin: 1em (100% / 18);
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -39,14 +43,8 @@ p {
 a {
   color: #CC0044;
   text-decoration: none;
+  .mx-transition(ease 0.5s);
 }
-
-a:hover,
-a:focus {
-  outline: none;
-  border-bottom: 1px dotted #CC0044;
-  color: #990033;
-};
 
 
 

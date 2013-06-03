@@ -1,29 +1,35 @@
 
 // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-*::-moz-selection {
-  background-color: #CC0044;
-  color: #FFFFFF;
-}
-*::selection {
-  background-color: #CC0044;
-  color: #FFFFFF;
-}
+*::-moz-selection { background-color: #CC0044; color: #EEEEEE; }
+     *::selection { background-color: #CC0044; color: #EEEEEE; }
 
+// These rules will override the corresponding base ones,
+// once webfonts are loaded.
 .wf-active header,
 .wf-active section,
 .wf-active footer {
   visibility: visible;
 }
 
-.st-wine {
-  background-color: #990033;
-  color: #CCCCCC;
+a:hover,
+a:focus {
+  outline: none;
+  border-bottom: 1px solid #990033;
+  color: #990033;
 }
 
-.st-ruby {
-  background-color: #CC0044;
-  color: #FFFFFF;
+
+
+// ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+.st-color {
+  border: 1px solid #FFFFFF;
+  background-color: #E9E9E9;
+}
+
+.st-monospace {
+  font-family: monospace;
 }
 
 
