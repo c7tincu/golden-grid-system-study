@@ -1,8 +1,8 @@
 
 // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-*::-moz-selection { background-color: #CC0044; color: #EEEEEE; }
-     *::selection { background-color: #CC0044; color: #EEEEEE; }
+*::-moz-selection { background-color: #CC0044; color: #F0F0F0; }
+     *::selection { background-color: #CC0044; color: #F0F0F0; }
 
 // These rules will override the corresponding base ones,
 // once webfonts are loaded.
@@ -17,6 +17,7 @@ a:focus {
   outline: none;
   border-bottom: 1px solid #990033;
   color: #990033;
+  .mx-transition(ease 0.5s);
 }
 
 
@@ -24,8 +25,11 @@ a:focus {
 // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 .st-color {
-  border: 1px solid #FFFFFF;
-  background-color: #E9E9E9;
+  border-top: 1px solid #D0D0D0;
+  border-right: 1px solid #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
+  border-left: 1px solid #D0D0D0;
+  background-color: #E0E0E0;
 }
 
 .st-monospace {
