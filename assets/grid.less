@@ -20,7 +20,7 @@
 
 
 
-// 4-column grid (mobile and old browsers).
+// 4 columns (640px – 960px, the default).
 // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 // 16px / 24px, for `@f-s`: 16 and `@l-h`: 24.
@@ -69,10 +69,44 @@ h1 {
 
 
 
-// 8-column grid (low resolution).
+// 2 columns (480px – 640px).
 // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-@media only screen and (min-width: 720px) {
+@media only screen and (max-width: 640px) {
+
+  // Expand (make wider).
+  .gg-⊕.gg-01, .gg-⊕.gg-02, .gg-⊕.gg-03, .gg-⊕.gg-04, .gg-⊕.gg-05, .gg-⊕.gg-06, .gg-⊕.gg-07 { width: @col * 8 * 1; }
+  .gg-⊕.gg-09, .gg-⊕.gg-10, .gg-⊕.gg-11, .gg-⊕.gg-12, .gg-⊕.gg-13, .gg-⊕.gg-14, .gg-⊕.gg-15 { width: @col * 8 * 2; }
+
+  // Collapse (make narrower).
+  .gg-⊖.gg-01, .gg-⊖.gg-02, .gg-⊖.gg-03, .gg-⊖.gg-04, .gg-⊖.gg-05, .gg-⊖.gg-06, .gg-⊖.gg-07 { width: @col * 8 * 0; display: none; }
+  .gg-⊖.gg-09, .gg-⊖.gg-10, .gg-⊖.gg-11, .gg-⊖.gg-12, .gg-⊖.gg-13, .gg-⊖.gg-14, .gg-⊖.gg-15 { width: @col * 8 * 1; }
+
+}
+
+
+
+// 1 column (320px – 480px).
+// ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+@media only screen and (max-width: 480px) {
+
+  // Expand (make wider).
+  .gg-⊕.gg-01, .gg-⊕.gg-02, .gg-⊕.gg-03, .gg-⊕.gg-04, .gg-⊕.gg-05, .gg-⊕.gg-06, .gg-⊕.gg-07, .gg-⊕.gg-08,
+  .gg-⊕.gg-09, .gg-⊕.gg-10, .gg-⊕.gg-11, .gg-⊕.gg-12, .gg-⊕.gg-13, .gg-⊕.gg-14, .gg-⊕.gg-15 { width: @col * 16 * 1; }
+
+  // Collapse (make narrower).
+  .gg-⊖.gg-01, .gg-⊖.gg-02, .gg-⊖.gg-03, .gg-⊖.gg-04, .gg-⊖.gg-05, .gg-⊖.gg-06, .gg-⊖.gg-07, .gg-⊖.gg-08,
+  .gg-⊖.gg-09, .gg-⊖.gg-10, .gg-⊖.gg-11, .gg-⊖.gg-12, .gg-⊖.gg-13, .gg-⊖.gg-14, .gg-⊖.gg-15 { width: @col * 16 * 0; display: none; }
+
+}
+
+
+
+// 8 columns (960px – 1440px).
+// ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+@media only screen and (min-width: 960px) {
 
   // 18px / 27px, for `@f-s`: 16 and `@l-h`: 24.
   body {
@@ -113,10 +147,10 @@ h1 {
 
 
 
-// 16-column grid (high resolution).
+// 16 columns (1440px – ∞).
 // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1440px) {
 
   // 20px / 30px, for `@f-s`: 16 and `@l-h`: 24.
   body {
