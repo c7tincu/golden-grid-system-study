@@ -17,7 +17,7 @@ a:focus {
   outline: none;
   border-bottom: 1px solid #CC0044;
   color: #CC0044;
-  .mx-transition(ease 0.5s);
+  .mx-transition(cubic-bezier(0.382, 0, 0.618, 1) 0.206s);
 }
 
 
@@ -25,10 +25,7 @@ a:focus {
 // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 .st-explicit {
-  border-top: 1px solid #D0D0D0;
-  border-right: 1px solid #FFFFFF;
-  border-bottom: 1px solid #FFFFFF;
-  border-left: 1px solid #D0D0D0;
+  .mx-box-sh(e("inset 1px 1px 0 0 #D0D0D0, inset -1px -1px 0 0 #FFFFFF"));
   background-color: #E0E0E0;
 }
 

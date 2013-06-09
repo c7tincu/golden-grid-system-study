@@ -15,6 +15,26 @@ footer {
 
 
 
+// Clear Fix.
+// ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+.cf:before,
+.cf:after {
+  display: table;
+  content: " ";
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+ *zoom: 1;
+}
+
+
+
+/*
 // 2 columns (480px – 640px).
 // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -32,16 +52,10 @@ footer {
 // 16 columns (1440px – ∞).
 // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-@media only screen and (min-width: 1440px) {
-
-  // Hackety-Hack!
-  // In order to avoid such a mess, folding rules should be defined
-  // in a relative manner, rather than being absolute.
-  .ly-faux-01 { width: @col *  2 !important; }
-  .ly-faux-03 { width: @col *  6 !important; }
-  .ly-faux-07 { width: @col * 14 !important; }
-
-}
+.ly-faux-01 { width: @col *  2 !important; }
+.ly-faux-03 { width: @col *  6 !important; }
+.ly-faux-07 { width: @col * 14 !important; }
+*/
 
 
 
