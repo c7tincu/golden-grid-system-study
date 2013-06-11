@@ -12,8 +12,7 @@
     <!--[if lt IE 9]>
       <script src="assets/html5shiv.js"></script>
     <![endif]-->
-    <script src="//use.edgefonts.net/eb-garamond.js"></script>
-    <script src="//use.edgefonts.net/josefin-slab.js"></script>
+    <script src="//use.edgefonts.net/source-sans-pro:n3,n4:all;source-code-pro:n4:all.js"></script>
   </head>
 
   <body>
@@ -22,11 +21,11 @@
 
     <header>
       <h1>Golden Grid System Study</h1>
-      <p>—An interpretation of <a href="http://www.jonikorpi.com/">Joni&nbsp;Korpi</a>’s&nbsp;<a href="http://goldengridsystem.com/">Golden&nbsp;Grid&nbsp;System</a>.</p>
+      <p>—An interpretation of <a href="http://www.jonikorpi.com/">Joni Korpi</a>’s <a href="http://goldengridsystem.com/">Golden Grid System</a>.</p>
     </header>
 
     <section>
-      <h2><span style="font-family: eb-garamond;">§</span> <span class="st-monospace">1.</span> Complete Folding Grid</h2>
+      <h2>§<span class="st-monospace">1.</span> Folding Columns</h2>
       <p>—The canonical experiment for this study.</p>
       <br/>
       <div class="gg gg-16 st-explicit st-monospace">16</div>
@@ -66,49 +65,68 @@
     </section>
 
     <section>
-      <h2><span style="font-family: eb-garamond;">§</span> <span class="st-monospace">2.</span> Baseline Grid <span style="font-family: eb-garamond;">&amp;</span> Gutters</h2>
-      <p>—Responsive typography, and&nbsp;fluid&nbsp;horizontal&nbsp;paddings.</p>
+      <h2>§<span class="st-monospace">2.</span> Elastic Gutters</h2>
+      <p>—…</p>
       <br/>
-      <div class="cf"></div>
-      <div class="gg gg-01 gg-⊖">&nbsp;</div>
-      <div class="gg gg-03 gg-⊕ st-explicit">&nbsp;</div>
-      <div class="gg gg-01 gg-⊖">&nbsp;</div>
-      <div class="gg gg-03 gg-⊕ st-explicit">&nbsp;</div>
-      <div class="gg gg-01 gg-⊖">&nbsp;</div>
-      <div class="gg gg-07 gg-⊕ st-explicit">&nbsp;</div>
-      <div class="cf"></div>
+      <p>…</p>
     </section>
 
     <section>
-      <h2><span style="font-family: eb-garamond;">§</span> <span class="st-monospace">2.</span> Baseline Grid <span style="font-family: eb-garamond;">&amp;</span> Gutters</h2>
-      <p>—Responsive typography, and&nbsp;fluid&nbsp;horizontal&nbsp;paddings.</p>
+      <h2>§<span class="st-monospace">3.</span> Zoomable Baseline Grid</h2>
+      <p>—Responsive typography, based on a Fibbonacci scale.</p>
       <br/>
+      <!-- Flat. -->
+      <div class="gg gg-01 gg-⊖">&nbsp;</div>
+      <div class="gg gg-03 gg-⊕ st-explicit">
+        <h3>Lorem Ipsum</h3>
+        <p class="gg-small" style="padding-right: 5%;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      </div>
+      <div class="gg gg-01 gg-⊖">&nbsp;</div>
+      <div class="gg gg-03 gg-⊕ st-explicit">
+        <h3>Lorem Ipsum</h3>
+        <p class="gg-small" style="padding-right: 5%;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      </div>
+      <div class="gg gg-01 gg-⊖">&nbsp;</div>
+      <div class="gg gg-07 gg-⊕ gg-2-02 st-explicit">
+        <h3>Lorem Ipsum</h3>
+        <p class="gg-large">Lorem ipsum dolor sit amet.</p>
+        <p style="padding-left: 10%;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      </div>
       <div class="cf"></div>
-      <div class="gg gg-08 gg-⊕">
-        <div class="gg gg-01 gg-⊖ ly-faux-01">&nbsp;</div>
-        <div class="gg gg-07 gg-⊕ ly-faux-03 st-explicit">
+      <br/>
+      <!-- Nested. -->
+      <div class="gg gg-08 gg-⊕ st-explicit">
+        <div class="gg gg-02 gg-⊖ gg-8-00">&nbsp;</div>
+        <div class="gg gg-06 gg-⊕ gg-8-04 gg-2-02">
           <h3>Lorem Ipsum</h3>
           <p class="gg-small" style="padding-right: 5%;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
         </div>
-        <div class="gg gg-01 gg-⊖ ly-faux-01">&nbsp;</div>
-        <div class="gg gg-07 gg-⊕ ly-faux-03 st-explicit" style="background-color: #E7E7E7;">
+        <div class="gg gg-02 gg-⊖ gg-8-00">&nbsp;</div>
+        <div class="gg gg-06 gg-⊕ gg-8-04 gg-2-02">
           <h3>Lorem Ipsum</h3>
-          <p class="gg-small" style="padding-right: 5%">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+          <p class="gg-small" style="padding-right: 5%;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
         </div>
       </div>
-      <div class="gg gg-08 gg-⊕">
-        <div class="gg gg-01 gg-⊖ ly-faux-01">&nbsp;</div>
-        <div class="gg gg-15 gg-⊕ ly-faux-07 st-explicit">
+      <div class="gg gg-08 gg-⊕ st-explicit">
+        <div class="gg gg-02 gg-⊖ gg-8-00">&nbsp;</div>
+        <div class="gg gg-14 gg-⊕ gg-8-08">
           <h3>Lorem Ipsum</h3>
-          <p class="gg-large">Lorem ipsum dolor&nbsp;sit&nbsp;amet.</p>
-          <p style="padding-left: 10%;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem&nbsp;Ipsum.</p>
+          <p class="gg-large">Lorem ipsum dolor sit amet.</p>
+          <p style="padding-left: 10%;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
         </div>
       </div>
       <div class="cf"></div>
     </section>
 
     <section>
-      <h2><span style="font-family: eb-garamond;">§</span> <span class="st-monospace">3.</span> Golden Grid System Inception</h2>
+      <h2>§<span class="st-monospace">4.</span> Golden Gridlet</h2>
+      <p>—…</p>
+      <br/>
+      <p>…</p>
+    </section>
+
+    <section>
+      <h2>§<span class="st-monospace">5.</span> Golden Grid System Inception</h2>
       <p>—…</p>
       <br/>
       <p>…</p>
@@ -116,7 +134,7 @@
 
     <footer>
       <p>★&nbsp;&nbsp;<a href="https://github.com/CristianTincu/golden-grid-system-study">View Project on GitHub</a></p>
-      <p>Copyright © 2013 <a href="https://twitter.com/CristianTincu">Cristian Tincu</a> —MIT&nbsp;licensed.</p>
+      <p>Copyright © 2013 <a href="https://twitter.com/CristianTincu">Cristian Tincu</a> —MIT licensed.</p>
     </footer>
 
   </body>
