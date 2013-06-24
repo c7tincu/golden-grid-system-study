@@ -1,8 +1,8 @@
 
 // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-*::-moz-selection { background-color: #CC0044; color: #F0F0F0; }
-     *::selection { background-color: #CC0044; color: #F0F0F0; }
+*::-moz-selection { background-color: #CC0044; color: #FFE0EB; }
+     *::selection { background-color: #CC0044; color: #FFE0EB; }
 
 // These rules will override the corresponding base ones,
 // once webfonts are loaded.
@@ -15,8 +15,8 @@
 a:hover,
 a:focus {
   outline: none;
-  border-bottom: 1px solid #661934;
-  color: #661934;
+  border-bottom: 1px solid #CC0044;
+  color: #CC0044;
   .mx-transition(all cubic-bezier(0.382, 0, 0.618, 1) 0.206s);
 }
 
@@ -25,14 +25,7 @@ a:focus {
 // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 .st-explicit {
-  background-color: #F0F0F0;
-  .mx-box-sh(e("inset 1px 1px 0 0 #E0E0E0, inset -1px -1px 0 0 #FFFFFF"));
-  cursor: pointer;
-}
-
-.st-explicit:hover {
-  background-color: #CC0044;
-  color: #F0F0F0;
+  .mx-box-sh(e("inset 1px 1px 0 0 #16161D, inset -1px -1px 0 0 #16161D"));
 }
 
 .st-monospace {
