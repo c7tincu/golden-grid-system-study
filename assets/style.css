@@ -52,12 +52,11 @@ table{border-collapse:collapse;border-spacing:0}
 
 html{height:100%}
 body{overflow-x:hidden;min-width:320px;min-height:100%;background-color:#383840;color:#E0E0FF;font-family:"source-sans-pro";text-rendering:optimizeLegibility}
-header,section,footer{visibility:hidden}
-noscript{display:block;margin:1em 5.555555555555555%;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif}
+header,section,footer{visibility:hidden;padding:1em 5.555555555555555%}
+noscript{display:block;padding:1em 5.555555555555555%;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif}
 h1,h2,h3{margin:0;font-family:"source-sans-pro",sans-serif;font-weight:100}
 p{margin:0}
-a{padding:0 0.125em;border-bottom:1px solid #FFE0EB;color:#FFE0EB;text-decoration:none}
-header,section,footer{padding:1em 5.555555555555555%}
+a{padding:0 0.103em;border-bottom:1px solid #FFE0EB;color:#FFE0EB;text-decoration:none}
 .gg{float:left;overflow:hidden;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;-webkit-transition:width cubic-bezier(.382, 0, .618, 1) .309s;-moz-transition:width cubic-bezier(.382, 0, .618, 1) .309s;-o-transition:width cubic-bezier(.382, 0, .618, 1) .309s;transition:width cubic-bezier(.382, 0, .618, 1) .309s}
 .gg-16,.gg-⊕.gg-16,.gg-⊖.gg-16,.gg-8-⊕.gg-16,.gg-8-⊖.gg-16,.gg-4-⊕.gg-16,.gg-4-⊖.gg-16,.gg-2-⊕.gg-16,.gg-2-⊖.gg-16,.gg-1-⊕.gg-16,.gg-1-⊖.gg-16{width:100%}
 .gg-⊕.gg-13{width:100%}
