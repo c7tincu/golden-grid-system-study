@@ -1,7 +1,6 @@
-golden-grid-system-study
+[Golden Grid System Study](http://cristiantincu.github.io/golden-grid-system-study/)
 ===============================================================================
 
-http://cristiantincu.github.io/golden-grid-system-study/
 
 
 License
